@@ -4,6 +4,9 @@
   --medium-gap: 30px;
   --side-gap: 250px;
   --light-black: lab(2.42579 -0.165291 -0.470081 / 0.8);
+  --grey-color: rgba(128, 128, 128, 0.836);
+  --small-font: 10px;
+  --background-grey: lab(2.42579 -0.165291 -0.470081 / 0.03);
 }
 * {
   padding: 0;
@@ -13,8 +16,27 @@
 }
 
 /* common section */
+.white-color {
+  color: var(--white-color);
+}
+.small-font {
+  font-size: var(--small-font);
+}
+.grey-color {
+  color: var(--grey-color);
+}
 .nav-link {
   font-size: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+.nav-link:hover {
+  border: 1px solid var(--background-grey);
+  border-radius: 20px;
+  padding: 3px;
+  background-color: var(--background-grey);
 }
 .info-heading {
   font-size: 18px;
@@ -25,18 +47,26 @@
 .primary-btn {
   padding: 7px 11px;
   border-radius: 15px;
+  font-weight: 500;
   font-size: 15px;
   border: none;
+}
+.primary-btn:hover {
+  opacity: 0.8;
 }
 .green-heading {
   color: lab(51.3415 -41.5657 15.3527);
   font-size: 14px;
   font-weight: 500;
 }
+body {
+  background-image: url("./Mintify-Assets/bg-main.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 /* header */
 .header-heading {
   display: flex;
-  background-color: lab(53.93% 36.35 -24.11);
   padding: 20px var(--side-gap);
   justify-content: space-between;
   align-items: center;
@@ -78,22 +108,26 @@ nav a {
 }
 .inp {
   display: flex;
-  border: 0.5px solid rgb(195, 195, 195);
+  border: 0.5px solid rgba(195, 195, 195, 0.788);
   padding: 5px 12px;
   gap: 150px;
   align-items: center;
   border-radius: 50px;
+  background-color: hwb(0 100% 0% / 0.329);
+  color: rgba(255, 255, 255, 0.737);
 }
 .hero .primary-btn {
   background-color: var(--white-color);
 }
 /* document preview */
 .documentation-preview {
-  margin: 100px var(--side-gap);
+  margin: 90px var(--side-gap);
   padding: 15px;
-  border: 1px solid grey;
+  border: 0.5px solid rgba(128, 128, 128, 0.388);
   height: calc(100vh - 80px);
   display: flex;
+  background-color: var(--white-color);
+  border-radius: 20px;
 }
 .side-bar {
   width: 170px;
@@ -103,9 +137,16 @@ nav a {
   margin-top: 20px;
   list-style-type: none;
 }
+
 .side-link-box a {
   text-decoration: none;
   font-size: 13px;
+  color: var(--grey-color);
+}
+.right-side a,
+li {
+  font-size: 10px;
+  margin-bottom: 0;
 }
 .doc-main {
   padding: 100px;
@@ -130,6 +171,19 @@ nav a {
   height: 120px;
   background-color: rgb(202, 89, 202);
   border-radius: 10px;
+  background-position: center;
+}
+.doc1 {
+  background-image: url("./Mintify-Assets/doc-card1.png");
+}
+.doc2 {
+  background-image: url("./Mintify-Assets/doc-card2.png");
+}
+.doc3 {
+  background-image: url("./Mintify-Assets/doc-card3.png");
+}
+.doc4 {
+  background-image: url("./Mintify-Assets/doc-card4.png");
 }
 .doc-content {
   display: flex;
@@ -137,6 +191,30 @@ nav a {
   gap: 9px;
 }
 /* logos */
+.comp1 {
+  background-image: url("./Mintify-Assets/comp1.png");
+}
+.comp2 {
+  background-image: url("./Mintify-Assets/comp2.png");
+}
+.comp3 {
+  background-image: url("./Mintify-Assets/comp3.png");
+}
+.comp4 {
+  background-image: url("./Mintify-Assets/comp4.png");
+}
+.comp5 {
+  background-image: url("./Mintify-Assets/comp5.png");
+}
+.comp6 {
+  background-image: url("./Mintify-Assets/comp6.png");
+}
+.comp7 {
+  background-image: url("./Mintify-Assets/comp7.png");
+}
+.comp8 {
+  background-image: url("./Mintify-Assets/comp8.png");
+}
 .trusted-logo {
   padding: 0 calc(var(--side-gap) - 20px);
   display: grid;
@@ -147,7 +225,8 @@ nav a {
 }
 .trusted-logo div {
   height: 100px;
-  background-color: rgb(192, 82, 192);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /* feature */
 .feature-highlight {
@@ -165,20 +244,28 @@ nav a {
   flex-direction: column;
   padding: 30px;
   gap: 25px;
-  border: 1px solid grey;
+  border: 1px solid rgba(128, 128, 128, 0.256);
   border-radius: 20px;
+}
+.fi1 {
+  background-image: url("./Mintify-Assets/card1.png");
+}
+.fi2 {
+  background-image: url("./Mintify-Assets/card2.png");
 }
 .feature-img {
   margin: 30px auto;
-  width: 300px;
-  height: 300px;
-  background-color: rgb(201, 112, 201);
+  width: 400px;
+  height: 400px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 /* ui preview */
 .ui-preview {
   margin: 0 calc(var(--side-gap) + 40px);
   height: 90vh;
-  border: 1px solid grey;
+  border: 1px solid rgba(128, 128, 128, 0.256);
   border-radius: 20px;
   padding: 25px;
 }
@@ -202,7 +289,7 @@ nav a {
 }
 .ui-mockup {
   margin: 5px;
-  border: 1px solid grey;
+  border: 1px solid var(--background-grey);
   display: flex;
   flex-direction: column;
   gap: 7px;
@@ -212,13 +299,13 @@ nav a {
 .ui-mockup div {
   width: 100%;
   height: 10px;
-  background-color: grey;
+  background-color: var(--background-grey);
   border-radius: 5px;
 }
 /* enterprise */
 .enterprise {
   padding: 70px calc(var(--side-gap) + 40px);
-  background-color: grey;
+  background-color: var(--background-grey);
 }
 .enterprise-content {
   display: grid;
@@ -251,7 +338,14 @@ nav a {
 .enter-logo {
   height: 40px;
   width: 40px;
-  background-color: rgb(197, 108, 197);
+  background-position: center;
+  background-size: contain;
+}
+.lg1 {
+  background-image: url("./Mintify-Assets/ent1.png");
+}
+.lg2 {
+  background-image: url("./Mintify-Assets/ent2.png");
 }
 /* card layout */
 .card-layout {
@@ -271,8 +365,18 @@ nav a {
 .card-img {
   height: 300px;
   width: 400px;
-  background-color: rgb(202, 138, 202);
   border-radius: 15px;
+  background-position: center;
+  background-size: cover;
+}
+.cd1 {
+  background-image: url("./Mintify-Assets/perp.png");
+}
+.cd2 {
+  background-image: url("./Mintify-Assets/x.png");
+}
+.rs:hover {
+  color: lab(51.3415 -41.5657 15.3527);
 }
 /* final heading */
 .final-heading {
@@ -299,20 +403,24 @@ nav a {
 }
 /* footer */
 footer {
-  margin: 50px calc(var(--side-gap));
+  margin-top: 20px;
+  background-color: var(--background-grey);
+  padding: 50px calc(var(--side-gap));
 }
 .footer-box {
   padding: 40px;
-  border: 1px solid grey;
+  border: 1px solid var(--background-grey);
 }
 .info-box {
   display: flex;
   justify-content: space-between;
 }
-.info a {
+.info li,
+p {
   text-decoration: none;
   color: black;
   font-weight: 500;
+  margin-bottom: 5px;
 }
 .info-box ul {
   list-style: none;
@@ -320,14 +428,16 @@ footer {
   gap: 10px;
 }
 .credits {
-  border: 1px solid grey;
+  border: 1px solid var(--background-grey);
   padding: 20px;
   display: flex;
   gap: 15px;
   align-items: center;
 }
 .footer-img {
-  height: 50px;
-  width: 50px;
-  background-color: rgb(190, 123, 190);
+  height: 70px;
+  width: 70px;
+  background-image: url("./Mintify-Assets/seal.png");
+  background-position: center;
+  background-size: cover;
 }
