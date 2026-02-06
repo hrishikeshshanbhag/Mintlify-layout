@@ -73,6 +73,9 @@ body {
   padding: 20px var(--side-gap);
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
 }
 nav {
   display: flex;
