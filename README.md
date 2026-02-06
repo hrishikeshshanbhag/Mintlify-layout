@@ -10,10 +10,9 @@ project-folder/
 │
 <br>
 ├── index.html        # Main HTML file
-<br>
-<br>
+
 ├── style.css         # Styling file
-<br>
+
 │
 <br>
 └── assets/           # Images, icons
@@ -56,9 +55,9 @@ Open with Live Server (VS Code recommended)
 
 5.Feature Highlights
 
-6. Intelligent Assistant / UI Preview
+Intelligent Assistant / UI Preview
 
-7. Enterprise Features Section
+Enterprise Features Section
 
 8.Case Studies
 
