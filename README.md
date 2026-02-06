@@ -1,82 +1,82 @@
 <h2>Mintlify Layout</h2>
 
-Created a mintlify website structure using html and added styling using css. It helped me building strong foundation in html and css.
-
-A responsive page built using HTML and CSS. This project demonstrates clean layout design and modern styling techniques.
+  Created a mintlify website structure using html and added styling using css. It helped me building strong foundation in html and css.
+  
+  A responsive page built using HTML and CSS. This project demonstrates clean layout design and modern styling techniques.
 
 <b>📁 Project Structure</b>
 
-project-folder/
-│
-<br>
-├── index.html        # Main HTML file
-
-├── style.css         # Styling file
-
-│
-<br>
-└── assets/           # Images, icons
+  project-folder/
+  │
+  <br>
+  ├── index.html        # Main HTML file
+  
+  ├── style.css         # Styling file
+  
+  │
+  <br>
+  └── assets/           # Images, icons
 
 
 <b>🛠️ Technologies Used </b>
 
-HTML5
-
-CSS3
+  HTML5
+  
+  CSS3
 
 <br>📦 Setup Instructions </br>
 
-Clone the repository
-
-git clone https://github.com/hrishikeshshanbhag/Mintlify-layout
-
-or 
-
-Download the zip file and extract the file
-
-
-Open the project folder
-
-Double click index.html
-
-OR
-
-Open with Live Server (VS Code recommended)
+  Clone the repository
+  
+  git clone https://github.com/hrishikeshshanbhag/Mintlify-layout
+  
+  or 
+  
+  Download the zip file and extract the file
+  
+  
+  Open the project folder
+  
+  Double click index.html
+  
+  OR
+  
+  Open with Live Server (VS Code recommended)
 
 <b>Section Created </b>
 
-1.Top Navigation Bar
+  1.Top Navigation Bar
+  
+  2.Hero Section
+  
+  3.Documentation Preview Section
+  
+  4.Trusted By / Logos
+  
+  5.Feature Highlights
+  
+  Intelligent Assistant / UI Preview
+  
+  Enterprise Features Section
+  
+  8.Case Studies
+  
+  9.Final Call-To-Action
 
-2.Hero Section
-
-3.Documentation Preview Section
-
-4.Trusted By / Logos
-
-5.Feature Highlights
-
-Intelligent Assistant / UI Preview
-
-Enterprise Features Section
-
-8.Case Studies
-
-9.Final Call-To-Action
-
-Footer
+  10.Footer
 
 
 <b>Color used</b>
 
-1.light-black -> lab(2.42579 -0.165291 -0.470081 / 0.8);
-
-2.font-grey -> rgba(128, 128, 128, 0.836);
-
-3.background-grey -> lab(2.42579 -0.165291 -0.470081 / 0.03);
+  1.light-black -> lab(2.42579 -0.165291 -0.470081 / 0.8);
+  
+  2.font-grey -> rgba(128, 128, 128, 0.836);
+  
+  3.background-grey -> lab(2.42579 -0.165291 -0.470081 / 0.03);
 
 <b>Font used</b>
 
-Inter -> @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+  Inter -> @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 📷 Screenshots
 <img width="1920" height="1080" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/f8f5f5fa-4e7c-47dc-b92f-48fffad4ff5a" />
@@ -92,23 +92,23 @@ Inter -> @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,w
 
 <b>🎯 Learning Objectivesm</b>
 
-Understanding basic HTML structure
-
-Linking CSS to HTML
-
-Organizing project files properly
-
-Practicing layout and styling
+  Understanding basic HTML structure
+  
+  Linking CSS to HTML
+  
+  Organizing project files properly
+  
+  Practicing layout and styling
 
 <b>📌 Future Improvements </b>
 
-Add JavaScript functionality
-
-Improve animations
-
-Make it fully responsive for all devices
+  Add JavaScript functionality
+  
+  Improve animations
+  
+  Make it fully responsive for all devices
 
 <b>👨‍💻 Author</br
-Hrishikesh Shanbhag
-
-GitHub: https://github.com/hrishikeshshanbhag
+  Hrishikesh Shanbhag
+  
+  GitHub: https://github.com/hrishikeshshanbhag
