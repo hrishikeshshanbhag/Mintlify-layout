@@ -31,11 +31,14 @@
   border: none;
   cursor: pointer;
   font-weight: 500;
+  padding: 3px;
+  border: 1px;
+  border-radius: 20px;
+  border: 1px solid rgba(128, 128, 128, 0);
 }
 .nav-link:hover {
   border: 1px solid var(--background-grey);
   border-radius: 20px;
-  padding: 3px;
   background-color: var(--background-grey);
 }
 .info-heading {
