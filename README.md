@@ -108,7 +108,7 @@
   
   Make it fully responsive for all devices
 
-<b>👨‍💻 Author</br
+<b>👨‍💻 Author</br>
   Hrishikesh Shanbhag
   
   GitHub: https://github.com/hrishikeshshanbhag
